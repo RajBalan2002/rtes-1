@@ -37,9 +37,9 @@ can_log.csv      → Output: Full CAN message log
 
 ### Setup Virtual CAN interface in Linux
 
-sudo modprobe vcan
-sudo ip link add dev vcan0 type vcan
-sudo ip link set up vcan0
+"sudo modprobe vcan"
+"sudo ip link add dev vcan0 type vcan"
+"sudo ip link set up vcan0"
 
 ### Run the dashboard
 
